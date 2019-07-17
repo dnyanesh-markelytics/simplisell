@@ -1,0 +1,33 @@
+<div class="timelinebox timelineboxcat"> 
+  <meta property="og:image" content="{{product.logo}}"/>
+  <div class="timelineboxCon">
+    <div class="productimg">
+      <img src="{{product.logo}}">
+    </div>
+    
+    <div class="productitle">
+      <h4>{{product.name}}</h4>
+    </div>
+    <div class="price">
+      <div class="mrchntname"><p>{{product.store}}</p></div>
+      <div class="discountprice"><p>{{product.original_price}}</p></div>
+      <div class="orignalprice"><h3>{{product.discount_price}}</h3></div>
+    </div>
+    <div class="shwcash">
+      <p>&#8377;&nbsp;{{product.profit}} Profit</p>
+    </div>
+    <div class="sharenbuy">
+      <div class="buynow"><a target="_blank" href="{{product.buy_link}}"> Buy Now</a> </div>
+      <div class="share">
+        <p>Share</p>
+        <span class="tooltiptext">
+          <div class="sharebtns">
+            <div class="wpbtn"><a href="https://api.whatsapp.com/send?text={{product.name}} {{product.buy_link}}"><img src="assets/images/whatsapp.png"></a></div>
+            <div class="fbbtn"><img src="assets/images/whatsapp.png"></div>
+            <div class="twbtn"><img src="assets/images/twitter.png"></div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
